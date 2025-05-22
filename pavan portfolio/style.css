@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 11;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    color: #ededed;
+}
+
+.header {
+    position: fixed;
+    top: -19;
+    left: 78;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    margin-top: 32px;
+    margin-left: 49px;
+    position: relative;
+    font-size: 25px;
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+
+}
+.navbar a{
+    margin-top: 32px;
+    margin-right: 102px;
+    display:inline-block;
+    font-size:25px;
+    color:#fff;
+    text-decoration:none;
+    font-weight: 500;
+    margin-left:35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color:#0ef;
+}
+.home{
+    position:relative;
+    width:100%;
+    justify-content:space-between;
+    height:100vh;
+    background:url("background.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+h2{
+    color: #0ef;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 18px 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    box-shadow: 0 0 15px rgba(255, 0, 204, 0.5), 0 0 15px rgba(51, 51, 255, 0.5);
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+button{
+
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    box-shadow:  rgba(255, 0, 204, 0.5), 0 0 15px rgba(51, 51, 255, 0.5);}
+    .about {
+    position: relative;
+    background-image: url('aboutbck.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    
+
+    }
+    
+    .about-content {
+        max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(45deg, #ffffff75, #ffffff00);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000006a3, 0 0 15px #fff0;
+    }
+    
+    .about-content h2 {
+        margin-bottom: 20px;
+    }
+    
+    .about-content p {
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+   
+    .container {
+        background: rgba(255, 255, 255, 0); 
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+    
+    .left-image {
+        max-width: 200px;
+        margin-right: 20px;
+    }
+    
+    
